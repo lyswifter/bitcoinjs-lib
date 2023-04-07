@@ -8,6 +8,7 @@ const types_1 = require('../types');
 const lazy = require('./lazy');
 const bech32_1 = require('bech32');
 const OPS = bscript.OPS;
+const Buffer = require('safe-buffer').Buffer;
 const EMPTY_BUFFER = Buffer.alloc(0);
 function stacksEqual(a, b) {
   if (a.length !== b.length) return false;

@@ -12,6 +12,7 @@ exports.taggedHash =
 const ripemd160_1 = require('@noble/hashes/ripemd160');
 const sha1_1 = require('@noble/hashes/sha1');
 const sha256_1 = require('@noble/hashes/sha256');
+const Buffer = require('safe-buffer').Buffer;
 function ripemd160(buffer) {
   return Buffer.from((0, ripemd160_1.ripemd160)(Uint8Array.from(buffer)));
 }

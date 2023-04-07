@@ -13,6 +13,7 @@ const bscript = require('./script');
 const types_1 = require('./types');
 const bech32_1 = require('bech32');
 const bs58check = require('bs58check');
+const Buffer = require('safe-buffer').Buffer;
 const FUTURE_SEGWIT_MAX_SIZE = 40;
 const FUTURE_SEGWIT_MIN_SIZE = 2;
 const FUTURE_SEGWIT_MAX_VERSION = 16;

@@ -13,6 +13,7 @@ const { typeforce } = types;
 const varuint = require('varuint-bitcoin');
 exports.varuint = varuint;
 // https://github.com/feross/buffer/blob/master/index.js#L1127
+const Buffer = require('safe-buffer').Buffer;
 function verifuint(value, max) {
   if (typeof value !== 'number')
     throw new Error('cannot write a non-number as a number');

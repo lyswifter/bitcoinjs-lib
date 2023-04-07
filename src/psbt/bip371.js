@@ -18,6 +18,7 @@ const psbtutils_1 = require('./psbtutils');
 const bip341_1 = require('../payments/bip341');
 const payments_1 = require('../payments');
 const psbtutils_2 = require('./psbtutils');
+const Buffer = require('safe-buffer').Buffer;
 const toXOnly = pubKey => (pubKey.length === 32 ? pubKey : pubKey.slice(1, 33));
 exports.toXOnly = toXOnly;
 /**

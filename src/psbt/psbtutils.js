@@ -18,6 +18,7 @@ const bscript = require('../script');
 const transaction_1 = require('../transaction');
 const crypto_1 = require('../crypto');
 const payments = require('../payments');
+const Buffer = require('safe-buffer').Buffer;
 function isPaymentFactory(payment) {
   return script => {
     try {

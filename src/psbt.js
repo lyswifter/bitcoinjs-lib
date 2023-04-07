@@ -13,6 +13,7 @@ const bscript = require('./script');
 const transaction_1 = require('./transaction');
 const bip371_1 = require('./psbt/bip371');
 const psbtutils_1 = require('./psbt/psbtutils');
+const Buffer = require('safe-buffer').Buffer;
 /**
  * These are the default arguments for a Psbt instance.
  */

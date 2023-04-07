@@ -22,6 +22,7 @@ Object.defineProperty(exports, 'OPS', {
     return ops_1.OPS;
   },
 });
+const Buffer = require('safe-buffer').Buffer;
 const pushdata = require('./push_data');
 const scriptNumber = require('./script_number');
 const scriptSignature = require('./script_signature');

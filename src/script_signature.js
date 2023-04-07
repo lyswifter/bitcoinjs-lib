@@ -4,6 +4,7 @@ exports.encode = exports.decode = void 0;
 const bip66 = require('./bip66');
 const types = require('./types');
 const { typeforce } = types;
+const Buffer = require('safe-buffer').Buffer;
 const ZERO = Buffer.alloc(1, 0);
 function toDER(x) {
   let i = 0;

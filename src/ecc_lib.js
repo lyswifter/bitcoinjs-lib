@@ -1,6 +1,7 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 exports.getEccLib = exports.initEccLib = void 0;
+const Buffer = require('safe-buffer').Buffer;
 const _ECCLIB_CACHE = {};
 function initEccLib(eccLib) {
   if (!eccLib) {

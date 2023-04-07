@@ -1,6 +1,7 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 exports.Transaction = void 0;
+const Buffer = require('safe-buffer').Buffer;
 const bufferutils_1 = require('./bufferutils');
 const bcrypto = require('./crypto');
 const bscript = require('./script');
