@@ -54,7 +54,7 @@
     "bip174": "^2.1.0",
     "bs58check": "^3.0.1",
     "safe-buffer": "^5.2.1",
-    "typeforce": "^1.11.3",
+    "typeforce": "github:lyswifter/typeforce",
     "varuint-bitcoin": "^1.1.2"
   },
   "devDependencies": {
